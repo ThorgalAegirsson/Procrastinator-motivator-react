@@ -4,14 +4,18 @@
     background-color: #132f42;
     color: #52c367;
     width: 100%;
-    text-align: center;
-    /* padding: 10px 0; */
+    padding: 0 30px;
     display: flex;
-    flex-direction: column;
-    justify-items: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer a {
     color: yellowgreen;
     line-height: 1.2rem;
+}
+
+.info {
+    /* text-align: left; */
 }
