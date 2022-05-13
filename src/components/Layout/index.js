@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Footer from '../Footer';
+import Header from '../Header';
+import Main from '../Main';
 
 import classes from './styles.module.css';
 
@@ -8,9 +10,10 @@ const Layout = (props) => {
     
     return (
         <div className={classes.container}>
-            <main>
+            <Header />
+            <Main>
                 {props.children}
-            </main>
+            </Main>
             <Footer />
         </div>
     );
