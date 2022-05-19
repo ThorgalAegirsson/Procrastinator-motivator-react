@@ -2,19 +2,18 @@ import React, {useContext} from 'react';
 
 import Dashboard from '../Dashboard';
 import Output from '../Output';
-import Context, { ContextProvider } from '../../context';
+import Context from '../../context';
 
 import classes from './styles.module.css';
 
 const Main = (props) => {
     const ctx = useContext(Context);
+    console.log(ctx.lifetime)
     return (
-        <ContextProvider>
             <main className={classes.container}>
                 <Dashboard />
-                {ctx.year && <Output />}
+                {ctx.lifetime && <Output />}
             </main>
-        </ContextProvider>
     );
 };
 
