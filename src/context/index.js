@@ -32,7 +32,7 @@ export const ContextProvider = props => {
 
     const fetchData = ({ sex, year }) => {
         sex = sex || 'man';
-        year = year || new Date().getFullYear() - 1;
+        year = year || new Date().getFullYear() - 2;
         console.log(year, sex);
         const maleStr = `SP.DYN.LE00.MA.IN`;
         const femaleStr = `SP.DYN.LE00.FE.IN`;
