@@ -6,4 +6,4 @@ This tool will help you visualize the time you already lived (and possibly waste
 
 Inspired by [this TEDTalk](https://www.youtube.com/watch?v=arj7oStGLkU).
 
-
+You can see it in work [here](https://thorgalaegirsson.github.io/Procrastinator-motivator-react)
