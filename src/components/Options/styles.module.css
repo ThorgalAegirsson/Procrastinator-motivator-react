@@ -36,3 +36,9 @@
     background: transparent;
     color: black;
 }
+
+.options select {
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 2px;
+}

@@ -30,11 +30,14 @@ export const ContextProvider = props => {
     const [timePassed, setTimePassed] = useState(null);
     const [life, setLife] = useState(null);
 
-    const fetchData = ({ year, sex }) => {
+    const fetchData = ({ sex, year }) => {
+        sex = sex || 'man';
+        year = year || new Date().getFullYear() - 1;
+        console.log(year, sex);
         const maleStr = `SP.DYN.LE00.MA.IN`;
         const femaleStr = `SP.DYN.LE00.FE.IN`;
         const rootURL = `https://api.worldbank.org/v2/countries/POL/indicators/${sex === 'man' ? maleStr : femaleStr}?date=${year}:${year}&format=json`;
-
+        console.log(rootURL)
         try {
             fetch(rootURL)
                 .then(
@@ -45,12 +48,14 @@ export const ContextProvider = props => {
                     json => {
                         const life = json[1][0].value;
                         const today = new Date().getFullYear();
-                        const timePassed = today - year;
+                        let timePassed = today - year;
+                        if (!life) {
+                            timePassed = 0;
+                        }
                         setLifetime(formatTime(life));
                         setTimePassed(timePassed);
                         setLifeLeft(formatTime(life - timePassed));
                         setLife(life);
-                        console.log(lifetime)
                     }
                 );
 
