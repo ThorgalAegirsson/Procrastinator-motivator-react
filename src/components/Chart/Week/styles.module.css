@@ -1,0 +1,12 @@
+.week {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    background: #419b93;
+}
+
+.pastWeek {
+    width: 100%;
+    height: 100%;
+    background: black;
+}

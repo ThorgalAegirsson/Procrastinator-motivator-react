@@ -1,0 +1,38 @@
+.container fieldset {
+    margin: 10px auto;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 5px;
+    border: 2px solid brown;
+    padding: 20px;
+    line-height: 2;
+}
+
+.container fieldset button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    background: #186c6c;
+    color: #63c367
+}
+
+.container fieldset>legend {
+    text-align: center;
+}
+
+.container fieldset>.inside {
+    text-align: center;
+}
+
+.container fieldset select {
+    background: transparent;
+    border: 1px solid black;
+    color: inherit;
+
+}
+
+.container fieldset option {
+    background: transparent;
+    color: black;
+}

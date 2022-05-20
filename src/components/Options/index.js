@@ -24,7 +24,6 @@ const Options = (props) => {
     }
     return (
         <div className={classes.container}>
-            Options table
             <form onSubmit={submitData}>
                 <fieldset>
                     <legend>How much time did you waste in your life? Let's find out!</legend>

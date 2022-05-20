@@ -1,0 +1,20 @@
+.container {
+    line-height: 1.4;
+    width: 90%;
+    margin: 0 auto 50px auto;
+}
+
+.container p {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.container span {
+    font-weight: 600;
+    color: #8aff8e;
+}
+
+.container hr {
+    /* width: 80%; */
+    margin: 30px auto;
+}

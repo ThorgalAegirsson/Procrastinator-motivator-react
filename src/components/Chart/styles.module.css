@@ -1,0 +1,8 @@
+.chart {
+    margin-top: 20px;
+    border: 1px solid green;
+    padding: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, 10px);
+}

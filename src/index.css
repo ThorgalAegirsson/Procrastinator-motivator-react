@@ -94,7 +94,8 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #050611;
+  background: #0b3f5a;
+  color: #63c367;
 }
 
 code {
