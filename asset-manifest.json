@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Procrastinator-motivator-react/static/css/main.87cf4ead.css",
-    "main.js": "/Procrastinator-motivator-react/static/js/main.3cd88317.js",
+    "main.js": "/Procrastinator-motivator-react/static/js/main.4d5d8814.js",
     "static/js/787.d1823cfc.chunk.js": "/Procrastinator-motivator-react/static/js/787.d1823cfc.chunk.js",
     "index.html": "/Procrastinator-motivator-react/index.html",
     "main.87cf4ead.css.map": "/Procrastinator-motivator-react/static/css/main.87cf4ead.css.map",
-    "main.3cd88317.js.map": "/Procrastinator-motivator-react/static/js/main.3cd88317.js.map",
+    "main.4d5d8814.js.map": "/Procrastinator-motivator-react/static/js/main.4d5d8814.js.map",
     "787.d1823cfc.chunk.js.map": "/Procrastinator-motivator-react/static/js/787.d1823cfc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87cf4ead.css",
-    "static/js/main.3cd88317.js"
+    "static/js/main.4d5d8814.js"
   ]
 }
